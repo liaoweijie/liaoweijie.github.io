@@ -5,7 +5,7 @@ layout: home
 <div class="index-content fiction">
     <div class="section">
         <ul class="artical-cate">
-            <li><a href="/"><span>技术笔记</span></a></li>
+            <li><a href="/"><span>学习笔记</span></a></li>
             <li class="on" style="text-align:center"><a href="/fiction"><span>独创小说</span></a></li>
             <li style="text-align:right"><a href="/null"><span>还没想好</span></a></li>
         </ul>
