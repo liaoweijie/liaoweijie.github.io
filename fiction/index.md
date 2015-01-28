@@ -2,18 +2,18 @@
 layout: home
 ---
 
-<div class="index-content opinion">
+<div class="index-content fiction">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>技术笔记</span></a></li>
-            <li class="on" style="text-align:center"><a href="/opinion"><span>独创小说</span></a></li>
-            <li style="text-align:right"><a href="/project"><span>还没想好</span></a></li>
+            <li class="on" style="text-align:center"><a href="/fiction"><span>独创小说</span></a></li>
+            <li style="text-align:right"><a href="/null"><span>还没想好</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <ul class="artical-list">
-        {% for post in site.categories.opinion %}
+        {% for post in site.categories.fiction %}
             <li>
                 <h2>
                     <a href="{{ post.url }}">{{ post.title }}</a>
