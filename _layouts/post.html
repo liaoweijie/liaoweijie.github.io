@@ -50,5 +50,20 @@ layout: default
         </ul>
     </div>
 </div>
-    
-<script src="/js/post.js" type="text/javascript"></script>
+<!-- 多说公共JS代码 start -->
+<script>var duoshuoQuery = {short_name:"jackshao"};</script>
+<script src="http://static.duoshuo.com/embed.js"></script>
+<script type="text/javascript">
+function toggleDuoshuoComments(container, id, url){
+  if(jQuery(container).has("div").length>0){
+    jQuery(container).empty();
+    return;
+  }
+  var el = document.createElement('div');
+  el.setAttribute('data-thread-key', id);
+  el.setAttribute('data-url', url);
+  DUOSHUO.EmbedThread(el);
+  jQuery(container).append(el);
+}
+</script>
+<!-- 多说公共JS代码 end -->
