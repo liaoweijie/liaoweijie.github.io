@@ -89,7 +89,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .fiction .aside{
     background-image:url(http://jackshao.com/images%2Findex%2Fsishen2.jpg);
 }
-.null .aside{
+.share .aside{
     background-image:url(http://jackshao.com/images%2Findex%2Fsishen3.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
@@ -167,7 +167,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 
     .learn .aside,
     .fiction .aside,
-    .null .aside {display:none;background-image:none;}
+    .share .aside {display:none;background-image:none;}
 }
 
 @media (max-width: 1020px){
