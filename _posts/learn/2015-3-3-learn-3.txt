@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      Android自动化打包之ant安装
+category: learn
+description:
+---
+
+## 前篇
+接下来本少将逐步的介绍ios、Android的自动化打包过程。因为ios打包必须在mac系统下进行，故所有的打包操作都会在mac下完成。先从Android开始讲起，Android打包会用到一个叫“ant”的工具，本期先介绍该工具的安装方式...
+
+## 安装步骤
+[ant安装包下载][]
+
+1. 在mac下双击解压下载好的压缩包“apache-ant-1.9.4-bin.tar.gz”
+2. 将解压出来的文件夹随意找个地方存放（本少是放到Documents目录下）
+3. 在终端输入命令（进入ant存放目录）
+	cd ~/Documents
+4. 在终端输入命令（创建软连接）
+	ln -s apache-ant-1.9.4/ ant
+5. 在终端输入命令（进入文件夹）
+	cd /Users/<span style="color:red">你的用户名</span>
+6. 在终端输入命令（打开环境变量文件）
+	vim .bash_profile  (i 进入编辑模式 ESC退出编辑模式 :wq退出并保存 :q!退出不保存)
+7. 编辑文件（标红部分改成你ant存放的目录）
+	export PATH=${PATH}:<span style="color:red">~/Documents/apache-ant-1.9.4/bin</span>
+8. 已完成搭建！试着在终端输入命令，如正确输出版本号则说明搭建成功
+	ant -version
+	
+## 后话
+步骤可能比较啰嗦，意为希望没什么基础的人也能根据步骤完成ant的搭建~
+
+
+
+
+
+[ant安装包下载]:    http://ant.apache.org/bindownload.cgi  "ant安装包下载"
